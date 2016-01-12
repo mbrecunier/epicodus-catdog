@@ -1,0 +1,7 @@
+#results-content, #dog, #cat {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
