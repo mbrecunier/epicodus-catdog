@@ -5,3 +5,8 @@
 li {
   list-style-type: none;
 }
+
+#result-photo {
+  display: block;
+  margin: auto;
+}

@@ -9,7 +9,9 @@ $(document).ready(function() {
     $("ul#dog-list").prepend("<li>GRRRRRRRR!!!</li>");
   });
 
-
+  $("button#result-button").click(function() {
+    $("button#reset-button").after('<img src="img/dogcat.jpg" id="result-photo">');
+  });
 
 
 
