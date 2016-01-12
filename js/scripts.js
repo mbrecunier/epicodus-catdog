@@ -10,12 +10,17 @@ $(document).ready(function() {
   });
 
   $("button#result-button").click(function() {
-    $("button#reset-button").after('<img src="img/dogcat.jpg" id="result-photo">');
+    $("button#reset-button").after('<img src="img/dogcat.jpg" class="result-photo">');
   });
 
+  // $("button#reset-button").click(function() {
+  //   location.reload();
+  // });
+
   $("button#reset-button").click(function() {
-    location.reload();
-  });
+    $("ul").empty();
+    $(".result-photo").remove();
+  })
 
 
 

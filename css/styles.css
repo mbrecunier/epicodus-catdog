@@ -6,7 +6,7 @@ li {
   list-style-type: none;
 }
 
-#result-photo {
+.result-photo {
   display: block;
   margin: auto;
 }
