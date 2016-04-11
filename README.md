@@ -13,6 +13,10 @@ When you click a button for a cat to meow, the dog should bark back, and vice ve
 * Clone this repository
 * Open in a standard web browser
 
+--or--
+
+* View on [GitHub Pages] (http://mbrecunier.github.io/epicodus-catdog/)
+
 ## Known Bugs
 
 No known bugs.
